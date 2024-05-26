@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 34px;
+    font-weight: 600;
+    color:#393C41;
+}
+
+h3 {
+    margin: 0px 0px 0px 10px;
+    padding: 64px 100px 10px 10px;
+    color: #5C5E62;
+    font-weight: 600;
+}
+
+h2, h4, h5 { 
+    font-size: 28px;
+    font-weight: 600;
+    padding: 64px 0px 24px;
+    color: #393C41;
+}
+
+nav {
+    position: fixed;
+    background-color: white;
+}
+
+.nav-menu div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-menu img {
+    padding: 8px 16px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 0px 10px 300px;
+    margin: 0px 200px;
+}
+
+nav li {
+    display: inline;
+    padding: 8px 16px;
+    font-weight: 500;
+    color: #393C41;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+nav i {
+    color: #393C41;
+    padding: 0px 10px 10px 0px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 300px;
+    height: 859px;
+}
+
+.sidebar li {
+    font-weight: 500;
+    text-decoration: none;
+    color: #5C5E62;
+    margin-left: 10px;
+    padding: 15px 100px 10px 10px;
+}
+.sidebar li:hover {
+    text-decoration: underline;
+}
+
+.contenido-principal, .funciones-adicionales {
+    display: block;
+    flex-direction: row;
+    padding: 30px 0px 10px 300px;
+    margin: 0px 200px;
+    width: 1300px;
+}
+
+main div, section div {
+    display: block;
+    flex-direction: row;
+    padding: 0px 0px 10px 300px;
+    margin: 0px 200px;
+    width: 1300px;
+}
+
+.section-piloto div {
+    padding: 0px;
+    margin: 0px;
+}
+
+.section-piloto {
+    margin-left: 500px;
+}
+
+main a, main p, section a {
+    color:#393C41;
+}
+
+.inventory-btn {
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    padding: 4px 24px;
+    margin: 30px 0px;
+    font-weight: 600;
+}
+
+.inventory-btn:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.tesla-footer {
+    font-weight: 500;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer a {
+    color:#393C41;
+    text-decoration: none;
+    padding-left: 10px;
+}
