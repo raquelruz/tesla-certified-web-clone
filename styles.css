@@ -62,8 +62,9 @@ nav {
     padding: 8px 16px;
 }
 
-nav ul {
-    display: inline-block;
+.web-menu {
+    width: 50%;
+    display: flex;
     list-style-type: none;
     padding: 0px 0px 10px 300px;
     margin: 0px 200px;
@@ -156,3 +157,22 @@ footer a {
     text-decoration: none;
     padding-left: 10px;
 }
+
+@media only screen and (max-width: 480px) {
+  /*  .web-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inherit;
+    } */
+
+    nav ul, .sidebar, .icons {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
