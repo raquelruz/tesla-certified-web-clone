@@ -31,7 +31,7 @@ dd {
 h1 {
     font-size: 34px;
     font-weight: 600;
-    color:#393C41;
+    color: #393C41;
 }
 
 h3 {
@@ -41,7 +41,9 @@ h3 {
     font-weight: 600;
 }
 
-h2, h4, h5 { 
+h2,
+h4,
+h5 {
     font-size: 28px;
     font-weight: 600;
     padding: 64px 0px 24px;
@@ -88,7 +90,7 @@ nav i {
 
 .sidebar {
     position: fixed;
-    width: 300px;
+    width: 30%;
     height: 859px;
 }
 
@@ -97,21 +99,25 @@ nav i {
     text-decoration: none;
     color: #5C5E62;
     margin-left: 10px;
-    padding: 15px 100px 10px 10px;
+    padding: 15px 0px 10px 10px;
 }
+
 .sidebar li:hover {
     text-decoration: underline;
 }
 
-.contenido-principal, .funciones-adicionales {
-    display: block;
-    flex-direction: row;
+.principal-content,
+.funciones-adicionales {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
     padding: 30px 0px 10px 300px;
     margin: 0px 200px;
     width: 1300px;
 }
 
-main div, section div {
+main div,
+section div {
     display: block;
     flex-direction: row;
     padding: 0px 0px 10px 300px;
@@ -128,8 +134,10 @@ main div, section div {
     margin-left: 500px;
 }
 
-main a, main p, section a {
-    color:#393C41;
+main a,
+main p,
+section a {
+    color: #393C41;
 }
 
 .inventory-btn {
@@ -153,13 +161,13 @@ main a, main p, section a {
 }
 
 footer a {
-    color:#393C41;
+    color: #393C41;
     text-decoration: none;
     padding-left: 10px;
 }
 
 @media only screen and (max-width: 480px) {
-  /*  .web-menu {
+    /*  .web-menu {
         display: none;
     }
 
@@ -167,7 +175,9 @@ footer a {
         display: inherit;
     } */
 
-    nav ul, .sidebar, .icons {
+    nav ul,
+    .sidebar,
+    .icons {
         display: none;
     }
 
@@ -175,4 +185,18 @@ footer a {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+
+    .nav-menu img {
+        padding: 8px 16px;
+    }
+
+    main div,
+    section div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 10px 10px;
+        margin: 0px 10px;
+        width: 90%;
     }
