@@ -176,71 +176,71 @@ footer a {
 }
 
 @media only screen and (max-width: 480px) {
-    /*  .web-menu {
-        display: none;
+    nav {
+        position: relative;
     }
 
-    .mobile-menu {
-        display: inherit;
-    } */
+    
+    .nav-menu div { 
+        width: 200px;
+        display: flex;
+    }
+
+
+    .tesla-logo {
+        width: 200px;
+    }
 
     nav ul,
-    .sidebar,
-    .icons {
+    .sidebar {
         display: none;
     }
 
     .nav-menu {
+        width: 100px;
         display: flex;
         flex-direction: row;
         align-items: center;
     }
 
+     .web-menu {
+        padding: 0px 50px;
+        margin: 0px 10px;
+    } 
+
+    .icons {
+        display: none;
+    }
     main div,
     section div,
     .section-piloto,
     .conveniencia,
     .recursos-adicionales {
-        width: 100%;
+        width: 330px;
         padding: 0px 0px 10px 10px;
         margin: 0px 10px;
     }
 
-    
-
-    img {
-        width: 390px;
-        height: 290px;
-    }
-
+ 
         .nav-menu img {
         padding: 8px 16px;
     }
 
-
-    .inventory-btn {
-        border: 2px solid black;
-        border-radius: 3px;
-        background-color: #FFFFFF;
-        padding: 4px 24px;
-        margin: 30px 0px;
-        font-weight: 600;
+    main img,
+    .section-piloto img,
+    .conveniencia img {
+        width: 320px;
     }
 
-    .inventory-btn:hover {
-        background-color: #000000;
-        color: #FFFFFF;
+    .tesla-logo {
+        width: 50px;
     }
+
 
     .tesla-footer {
+        width: 330px;
         font-weight: 500;
         font-size: 12px;
         text-align: center;
-    }
-
-    footer a {
-        color: #393C41;
-        text-decoration: none;
-        padding-left: 10px;
     }
 }
