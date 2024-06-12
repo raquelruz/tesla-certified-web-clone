@@ -106,23 +106,35 @@ nav i {
     text-decoration: underline;
 }
 
+.tesla-images {
+    margin: 0 auto;
+}
+
 .principal-content,
 .funciones-adicionales {
     width: 60%;
     display: flex;
     flex-direction: column;
-    padding: 30px 0px 10px 300px;
+    padding: 30px 0px 10px 30px;
     margin: 0px 200px;
     width: 1300px;
 }
 
-main div,
-section div {
+main div, 
+.section-piloto,
+.conveniencia,
+.recursos-adicionales {
     display: block;
     flex-direction: row;
-    padding: 0px 0px 10px 300px;
-    margin: 0px 200px;
-    width: 1300px;
+    padding: 0px 0px 10px 150px;
+    margin: 0px 100px;
+    width: 90%;
+    height: 100%;
+}
+
+.tesla-images{
+    padding: 0;
+    margin: 2px 0px;
 }
 
 .section-piloto div {
@@ -130,9 +142,6 @@ section div {
     margin: 0px;
 }
 
-.section-piloto {
-    margin-left: 500px;
-}
 
 main a,
 main p,
@@ -187,16 +196,51 @@ footer a {
         align-items: center;
     }
 
-    .nav-menu img {
+    main div,
+    section div,
+    .section-piloto,
+    .conveniencia,
+    .recursos-adicionales {
+        width: 100%;
+        padding: 0px 0px 10px 10px;
+        margin: 0px 10px;
+    }
+
+    
+
+    img {
+        width: 390px;
+        height: 290px;
+    }
+
+        .nav-menu img {
         padding: 8px 16px;
     }
 
-    main div,
-    section div {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding: 0px 0px 10px 10px;
-        margin: 0px 10px;
-        width: 90%;
+
+    .inventory-btn {
+        border: 2px solid black;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        padding: 4px 24px;
+        margin: 30px 0px;
+        font-weight: 600;
     }
+
+    .inventory-btn:hover {
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+    .tesla-footer {
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    footer a {
+        color: #393C41;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+}
